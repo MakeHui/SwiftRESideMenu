@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ZHu-m1-IpZ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="8Xg-2Z-4QE">
+            <objects>
+                <viewController id="ZHu-m1-IpZ" customClass="RootViewController" customModule="SwiftRESideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NGA-hF-BwP"/>
+                        <viewControllerLayoutGuide type="bottom" id="vYF-jy-wes"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dfq-bK-THy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqv-Fz-dD6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="521" y="411"/>
+        </scene>
+        <!--Left Menu View Controller-->
+        <scene sceneID="Djy-Dx-Q6j">
+            <objects>
+                <viewController storyboardIdentifier="LeftMenuViewController" id="HU7-o3-bmp" customClass="LeftMenuViewController" customModule="SwiftRESideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TUO-FO-Buc"/>
+                        <viewControllerLayoutGuide type="bottom" id="gzz-DE-Cpm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cne-5s-4hj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LeftViewController" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRa-he-huW">
+                                <rect key="frame" x="20" y="273" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.89411764709999997" green="0.1058823529" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vRa-he-huW" firstAttribute="leading" secondItem="cne-5s-4hj" secondAttribute="leadingMargin" constant="4" id="YIq-XF-30N"/>
+                            <constraint firstItem="vRa-he-huW" firstAttribute="centerY" secondItem="cne-5s-4hj" secondAttribute="centerY" id="j9W-bE-eEJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6A0-S6-KcO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="521" y="1061"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="9Mj-fK-4Ls">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="C4h-Vk-yqJ" customClass="HomeViewController" customModule="SwiftRESideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lxb-Uf-5OV"/>
+                        <viewControllerLayoutGuide type="bottom" id="xKq-NS-hh3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kGD-Iz-C2o">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ccV-Di-yhy">
+                        <barButtonItem key="leftBarButtonItem" title="Left" id="zfz-mX-gmc">
+                            <connections>
+                                <action selector="presentLeftMenuViewController:" destination="C4h-Vk-yqJ" id="YiA-up-8Ft"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7pe-Pd-OaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569" y="411"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PVx-Zk-4A9">
+            <objects>
+                <navigationController storyboardIdentifier="ContentViewController" automaticallyAdjustsScrollViewInsets="NO" id="rVK-id-Vw4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c3b-IO-oUv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="C4h-Vk-yqJ" kind="relationship" relationship="rootViewController" id="qZr-DZ-89J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LgO-hZ-i1P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1037" y="411"/>
+        </scene>
+    </scenes>
+</document>

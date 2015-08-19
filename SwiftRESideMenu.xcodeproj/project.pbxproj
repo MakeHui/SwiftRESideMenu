@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CEA944C1B8462730002A047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA944B1B8462730002A047 /* AppDelegate.swift */; };
+		7CEA944E1B8462730002A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA944D1B8462730002A047 /* ViewController.swift */; };
+		7CEA94511B8462730002A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA944F1B8462730002A047 /* Main.storyboard */; };
+		7CEA94531B8462730002A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA94521B8462730002A047 /* Assets.xcassets */; };
+		7CEA94561B8462730002A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA94541B8462730002A047 /* LaunchScreen.storyboard */; };
+		7CEA94641B8462B50002A047 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA945F1B8462B50002A047 /* RECommonFunctions.m */; };
+		7CEA94651B8462B50002A047 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA94611B8462B50002A047 /* RESideMenu.m */; };
+		7CEA94661B8462B50002A047 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA94631B8462B50002A047 /* UIViewController+RESideMenu.m */; };
+		7CEA94681B8462BE0002A047 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA94671B8462BE0002A047 /* LeftMenuViewController.swift */; };
+		7CEA946A1B8462C50002A047 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA94691B8462C50002A047 /* HomeViewController.swift */; };
+		7CEA946D1B8462D00002A047 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA946B1B8462D00002A047 /* RootViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CEA94481B8462730002A047 /* SwiftRESideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRESideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEA944B1B8462730002A047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CEA944D1B8462730002A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CEA94501B8462730002A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CEA94521B8462730002A047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CEA94551B8462730002A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CEA94571B8462730002A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEA945E1B8462B50002A047 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		7CEA945F1B8462B50002A047 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		7CEA94601B8462B50002A047 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		7CEA94611B8462B50002A047 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		7CEA94621B8462B50002A047 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		7CEA94631B8462B50002A047 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		7CEA94671B8462BE0002A047 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		7CEA94691B8462C50002A047 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7CEA946B1B8462D00002A047 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		7CEA946C1B8462D00002A047 /* SwiftRESideMenu-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftRESideMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CEA94451B8462730002A047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CEA943F1B8462730002A047 = {
+			isa = PBXGroup;
+			children = (
+				7CEA944A1B8462730002A047 /* SwiftRESideMenu */,
+				7CEA94491B8462730002A047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CEA94491B8462730002A047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CEA94481B8462730002A047 /* SwiftRESideMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CEA944A1B8462730002A047 /* SwiftRESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7CEA945D1B8462B50002A047 /* RESideMenu */,
+				7CEA944B1B8462730002A047 /* AppDelegate.swift */,
+				7CEA944D1B8462730002A047 /* ViewController.swift */,
+				7CEA94671B8462BE0002A047 /* LeftMenuViewController.swift */,
+				7CEA94691B8462C50002A047 /* HomeViewController.swift */,
+				7CEA946B1B8462D00002A047 /* RootViewController.swift */,
+				7CEA946C1B8462D00002A047 /* SwiftRESideMenu-Bridging-Header.h */,
+				7CEA944F1B8462730002A047 /* Main.storyboard */,
+				7CEA94521B8462730002A047 /* Assets.xcassets */,
+				7CEA94541B8462730002A047 /* LaunchScreen.storyboard */,
+				7CEA94571B8462730002A047 /* Info.plist */,
+			);
+			path = SwiftRESideMenu;
+			sourceTree = "<group>";
+		};
+		7CEA945D1B8462B50002A047 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7CEA945E1B8462B50002A047 /* RECommonFunctions.h */,
+				7CEA945F1B8462B50002A047 /* RECommonFunctions.m */,
+				7CEA94601B8462B50002A047 /* RESideMenu.h */,
+				7CEA94611B8462B50002A047 /* RESideMenu.m */,
+				7CEA94621B8462B50002A047 /* UIViewController+RESideMenu.h */,
+				7CEA94631B8462B50002A047 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CEA94471B8462730002A047 /* SwiftRESideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEA945A1B8462730002A047 /* Build configuration list for PBXNativeTarget "SwiftRESideMenu" */;
+			buildPhases = (
+				7CEA94441B8462730002A047 /* Sources */,
+				7CEA94451B8462730002A047 /* Frameworks */,
+				7CEA94461B8462730002A047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRESideMenu;
+			productName = SwiftRESideMenu;
+			productReference = 7CEA94481B8462730002A047 /* SwiftRESideMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CEA94401B8462730002A047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MakeHui;
+				TargetAttributes = {
+					7CEA94471B8462730002A047 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 7CEA94431B8462730002A047 /* Build configuration list for PBXProject "SwiftRESideMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CEA943F1B8462730002A047;
+			productRefGroup = 7CEA94491B8462730002A047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CEA94471B8462730002A047 /* SwiftRESideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CEA94461B8462730002A047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEA94561B8462730002A047 /* LaunchScreen.storyboard in Resources */,
+				7CEA94531B8462730002A047 /* Assets.xcassets in Resources */,
+				7CEA94511B8462730002A047 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CEA94441B8462730002A047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEA94651B8462B50002A047 /* RESideMenu.m in Sources */,
+				7CEA944E1B8462730002A047 /* ViewController.swift in Sources */,
+				7CEA94681B8462BE0002A047 /* LeftMenuViewController.swift in Sources */,
+				7CEA94661B8462B50002A047 /* UIViewController+RESideMenu.m in Sources */,
+				7CEA94641B8462B50002A047 /* RECommonFunctions.m in Sources */,
+				7CEA946A1B8462C50002A047 /* HomeViewController.swift in Sources */,
+				7CEA946D1B8462D00002A047 /* RootViewController.swift in Sources */,
+				7CEA944C1B8462730002A047 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CEA944F1B8462730002A047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEA94501B8462730002A047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CEA94541B8462730002A047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEA94551B8462730002A047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CEA94581B8462730002A047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CEA94591B8462730002A047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CEA945B1B8462730002A047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftRESideMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyaohui.SwiftRESideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftRESideMenu/SwiftRESideMenu-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		7CEA945C1B8462730002A047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftRESideMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyaohui.SwiftRESideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftRESideMenu/SwiftRESideMenu-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CEA94431B8462730002A047 /* Build configuration list for PBXProject "SwiftRESideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEA94581B8462730002A047 /* Debug */,
+				7CEA94591B8462730002A047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEA945A1B8462730002A047 /* Build configuration list for PBXNativeTarget "SwiftRESideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEA945B1B8462730002A047 /* Debug */,
+				7CEA945C1B8462730002A047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CEA94401B8462730002A047 /* Project object */;
+}
